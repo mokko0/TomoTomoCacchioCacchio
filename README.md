@@ -16,6 +16,8 @@ Il semaforo `availableChairs` viene inizializzato con il numero di sedie disponi
 
 ## Problemi di stallo e starvation
 
-In questo programma non ci sono problemi di stallo o starvation. Un problema di stallo si verifica quando due o più thread sono bloccati in attesa l'uno dell'altro e nessuno può procedere. In questo caso, non ci sono situazioni in cui i thread possono bloccarsi in attesa l'uno dell'altro, quindi non ci sono problemi di stallo.
+In questo programma non ci sono problemi di stallo o starvation. 
 
-Un problema di starvation si verifica quando un thread è costantemente impedito dall'acquisire una risorsa a causa della concorrenza con altri thread. In questo caso, ogni thread `Customer` ha la stessa possibilità di acquisire una sedia, quindi non ci sono problemi di starvation.
+-Un problema di stallo si verifica quando due o più thread sono bloccati in attesa l'uno dell'altro e nessuno può procedere. In questo caso, non ci sono situazioni in cui i thread possono bloccarsi in attesa l'uno dell'altro, quindi non ci sono problemi di stallo.
+
+-Un problema di starvation si verifica quando un thread è costantemente impedito dall'acquisire una risorsa a causa della concorrenza con altri thread. In questo caso, ogni thread `Customer` ha la stessa possibilità di acquisire una sedia, quindi non ci sono problemi di starvation.
